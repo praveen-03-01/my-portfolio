@@ -1,5 +1,5 @@
 import {motion} from 'motion/react';
-import { NAV_LINKS } from '../constants';
+
 
 
 const Footer = () => {

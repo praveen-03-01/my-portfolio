@@ -17,18 +17,6 @@ const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/20 text-brand-primary text-xs font-bold uppercase tracking-wider mb-6"
-          >
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-primary opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-primary"></span>
-            </span>
-            Available for new opportunities
-          </motion.div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl mb-6 leading-[1.1] tracking-tighter">
             Hi, I'm <span className="text-gradient">Praveen</span>

@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import Stats from './components/Stats'
 import About from './components/About'
@@ -10,7 +10,7 @@ import Contact from './components/Contact'
 import Project from './components/Project'
 import Footer from './components/Footer'
 
-const App = () => {
+export default function App() {
   return (
     <div>
       <Navbar />
@@ -27,4 +27,4 @@ const App = () => {
   )
 }
 
-export default App
+

@@ -1,3 +1,4 @@
+
 export const NAV_LINKS = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
@@ -26,26 +27,26 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
-    title: 'AI Image Generator',
-    description: 'A full-stack application that uses DALL-E API to generate high-quality images from text prompts.',
-    image: 'https://picsum.photos/seed/ai-gen/800/600',
-    tech: ['React', 'Node.js', 'OpenAI API', 'Tailwind'],
+    title: 'Android App For Home Cleaners',
+    description: 'Created a mobile application to connect users with home cleaning professionals.',
+    image: 'https://achcleaning.ae/wp-content/uploads/2024/03/Commercial-Cleaning.webp',
+    tech: ['Flutter', 'Firebase', 'Android Studio'],
     link: '#',
-    github: '#',
+    github: 'https://github.com/praveen-03-01/housecleaner.git',
   },
   {
-    title: 'SaaS Dashboard',
-    description: 'A premium analytics dashboard with real-time data visualization and user management features.',
-    image: 'https://picsum.photos/seed/dashboard/800/600',
-    tech: ['Next.js', 'TypeScript', 'Recharts', 'Tailwind'],
+    title: 'Nursing House Management System',
+    description: 'Developed a desktop application to manage patient records, staff details, and daily operations in a nursing home.',
+    image: 'https://novaenursing.ie/wp-content/uploads/2021/10/about.jpg',
+    tech: ['Java', 'MySql', 'NetBeans'],
     link: '#',
-    github: '#',
+    github: 'https://github.com/praveen-03-01/nursing-home.git',
   },
   {
-    title: 'E-commerce Platform',
-    description: 'A modern e-commerce solution with a focus on performance, accessibility, and high conversion rates.',
-    image: 'https://picsum.photos/seed/shop/800/600',
-    tech: ['React', 'Redux', 'Stripe', 'Firebase'],
+    title: 'Website For Zoological Park',
+    description: 'Created responsive web pages for animal details, visitor information, and ticket management.',
+    image: 'https://img.freepik.com/free-vector/group-wild-animals_1308-43813.jpg',
+    tech: ['Html', 'Css', 'JavaScript', 'Php' , 'MySql'],
     link: '#',
     github: '#',
   },
@@ -56,19 +57,19 @@ export const EDUCATION = [
     school: 'Cardiff Metroplitan University',
     degree: 'B.Sc. in Software Engineer',
     period: '2023 - Present',
-    description: 'Focusing on advanced algorithms, neural networks, and modern web architectures.',
+    description: '',
   },
   {
-    school: 'Welleasa Central College',
+    school: 'Welleasa Central Collage',
     degree: 'G.C.E.Advance Level',
     period: '2018 - 2021',
-    description: 'Intensive training on MERN stack and responsive UI design principles.',
+    description: 'Completed higher secondary education with focus on studies and personal development.',
   },
   {
     school: 'Mo/Dodamgolla Central Collage',
     degree: 'G.C.E.Advance Level',
     period: '2007 - 2017',
-    description: 'Intensive training on MERN stack and responsive UI design principles.',
+    description: 'Completed general education with focus on basic knowledge and skills.',
   },
 ];
 
